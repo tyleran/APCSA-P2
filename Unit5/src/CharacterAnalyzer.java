@@ -68,7 +68,7 @@ public class CharacterAnalyzer
 	public int getASCII( )
 	{
 		int ascii = theChar;
-		return theChar;
+		return ascii;
 	}
 
 	public String toString()
