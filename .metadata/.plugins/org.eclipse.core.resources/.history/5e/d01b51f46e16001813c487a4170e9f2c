@@ -12,9 +12,7 @@ public class Lab09f
 	{
 		LetterRemover test = new LetterRemover();
 		test.getSentence();
-		test.setRemover("I am Sam I am", 'a');
-		test.removeLetters();
-		test.toString();
+		
 		
 											
 	}

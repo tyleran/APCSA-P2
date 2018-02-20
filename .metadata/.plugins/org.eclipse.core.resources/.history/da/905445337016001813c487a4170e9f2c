@@ -31,7 +31,6 @@ public class LetterRemover
 	
 	public void setRemover(String s, char rem)
 	{
-		
 		sentence = s;
 		lookFor = rem;
 	}
@@ -43,7 +42,7 @@ public class LetterRemover
 		{
 			if (cleaned.charAt(i) == lookFor)
 			{
-				cleaned = cleaned.replaceAll(Character.toString(lookFor), "");
+				cleaned = cleaned.replaceAll(Character.toString(lookFor), cleaned);
 			}
 			return cleaned;
 		}

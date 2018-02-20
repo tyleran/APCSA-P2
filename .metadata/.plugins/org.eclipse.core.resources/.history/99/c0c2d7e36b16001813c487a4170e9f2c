@@ -10,11 +10,8 @@ public class Lab09f
 {
 	public static void main( String args[] )
 	{
-		LetterRemover test = new LetterRemover();
-		test.getSentence();
-		test.setRemover("I am Sam I am", 'a');
-		test.removeLetters();
-		test.toString();
+		//add test cases
+		
 		
 											
 	}

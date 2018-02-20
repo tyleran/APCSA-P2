@@ -13,17 +13,14 @@ public class LetterRemover
 
 	public LetterRemover()
 	{
-		setRemover("Sentence: ", 's');
+		
 	}
-	public LetterRemover(String s , char rem)
-	{
-		setRemover(s, rem);
-	}
+
 	public String getSentence()
 	{
 		Scanner r = new Scanner(System.in);
 		System.out.println("Enter a Sentence: ");
-		sentence = r.next();
+		String sentence = r.next();
 		return sentence;
 		
 	}
@@ -31,7 +28,6 @@ public class LetterRemover
 	
 	public void setRemover(String s, char rem)
 	{
-		
 		sentence = s;
 		lookFor = rem;
 	}
@@ -39,14 +35,7 @@ public class LetterRemover
 	public String removeLetters()
 	{
 		String cleaned=sentence;
-		for (int i = cleaned.length(); i >= cleaned.length(); i++)
-		{
-			if (cleaned.charAt(i) == lookFor)
-			{
-				cleaned = cleaned.replaceAll(Character.toString(lookFor), "");
-			}
-			return cleaned;
-		}
+
 
 
 
