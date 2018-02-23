@@ -29,9 +29,10 @@ public class TriangleThree
 		letter = let;
 	}
 
-	public String getLetter(int num, String lett)
+	public String getLetter()
 	{
-		return "";
+		return "#";
+		
 	} 
 		
 		
@@ -39,23 +40,16 @@ public class TriangleThree
 
 	public String toString()
 	{
-		Scanner r = new Scanner(System.in);
-		System.out.println("Number: ");
-		int size = r.nextInt();
-		System.out.println("Letter: ");
-		String letter = r.next();
-		String output="";
-		System.out.println(output+"\n");
+		String output = "";
 		 for (int i = size; i >= 0; i--){
 				for(int d = 1; d<i; d++){ 
-					return("       ");
+					output+=("       ");
 				}
-			for (int j = size; j >= i; j--) {
-		          return(letter);
+			for (int j = 1; j >= i; j--) {
+				output += letter;
 			}
 		 }
-		 return(letter);
-	}
+		 return(output);	}
 }
 
 

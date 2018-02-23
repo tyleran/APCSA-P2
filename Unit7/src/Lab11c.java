@@ -11,8 +11,9 @@ public class Lab11c
    public static void main( String args[] )
    {
 		
-		TriangleThree test = new TriangleThree();
-		test.toString();
+		TriangleThree test = new TriangleThree(3, "a");
+		out.println(test.toString());
+		
 		
 		
 		
