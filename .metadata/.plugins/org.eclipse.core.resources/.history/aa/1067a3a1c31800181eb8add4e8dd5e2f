@@ -49,8 +49,7 @@ public class TriangleThree
 				output += letter;
 			}
 		 }
-		 return output;	
-		 }
+		 return(output);	}
 }
 
 
