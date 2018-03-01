@@ -17,6 +17,7 @@ public class RomanNumeral
 	private final static String[] LETTERS = {"M","CM","D","CD","C","XC",
 												  "L","XL","X","IX","V","IV","I"};
 
+
 	public RomanNumeral(String str)
 	{
 		setRoman(str);
